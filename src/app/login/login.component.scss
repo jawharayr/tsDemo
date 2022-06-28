@@ -1,5 +1,15 @@
+@font-face {
+    font-family: 'MOEA';
+    src: url(ArabicFonts/MinistryofEnergy-Demi.otf);
+}
 .login-container{
     background:transparent linear-gradient(180deg, #097E86 0%, #007087 32%, #0E5778 66%, #004464 100%) 0% 0% no-repeat padding-box;
     width: 100%;
     height: 100vh;
+    position: relative;
+}
+.logo{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'MOEA';
 }
