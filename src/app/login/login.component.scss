@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'MOEA';
-    src: url(ArabicFonts/MinistryofEnergy-Demi.otf);
+    src: url(/Users/mac/ViewModel/src/ArabicFonts/MinistryofEnergy-Demi.otf/);
 }
 .login-container{
     background:transparent linear-gradient(180deg, #097E86 0%, #007087 32%, #0E5778 66%, #004464 100%) 0% 0% no-repeat padding-box;
@@ -12,4 +12,14 @@
     font-size: 70px;
     font-weight: bold;
     font-family: 'MOEA';
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.logopic{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 500px;
+
 }
