@@ -1,0 +1,23 @@
+[
+    {
+        "id": 17,
+        "name": "سمو وزير الطاقة يجتمع بوزير الطاقة المصري",
+        "cover": "https://www.moenergy.gov.sa/ar/MediaCenter/News/PublishingImages/363c17fb-0384-4c79-bc3e-966e66805e36.jpg",
+        "rating": "29 June",
+        "comments": []
+    },
+    {
+        "id": 18,
+        "name": "سمو وزير الطاقة يلتقي بوزراء الطاقة بالمملكة الاردنية",
+        "cover": "https://www.moenergy.gov.sa/ar/MediaCenter/News/PublishingImages/Ministers%20of%20Water%20and%20Environment%20of%20Jordan.jpeg",
+        "rating": "29 June",
+        "comments": []
+    },
+    {
+        "id": 19,
+        "name": "موافقة مجلس الوزراء على تنظيم مدينة الملك عبدالله",
+        "cover": "https://www.moenergy.gov.sa/ar/MediaCenter/News/PublishingImages/Approving%20the%20regulation%20of%20the%20King%20Abdullah%20City%20for%20Atomic%20and%20Renewable%20Energy1.jpeg",
+        "rating": "29 June",
+        "comments": []
+    }
+]

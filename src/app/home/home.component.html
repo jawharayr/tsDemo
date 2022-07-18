@@ -1,1 +1,23 @@
-<p>home works!</p>
+<app-herader></app-herader>
+<div class="imblue"></div>
+<div class="home-container">
+    <div class="all-news">
+        <div class="trending">
+            <div class="top">
+                <h4>الاخبار</h4>
+                <div class="view-all">عرض الكل</div>
+            </div>
+            <div class="news-thumbnail">
+                <div class="movie" *ngFor="let movie of trendingNews">
+                    <div class="cover">
+                        <img [src]="movie.cover" alt="">
+                    </div>
+                    <div class="detail">
+                        <div class="name"> {{ movie.name}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popular-news"></div>
+</div>

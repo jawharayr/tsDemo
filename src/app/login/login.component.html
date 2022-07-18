@@ -1,5 +1,18 @@
 <div class="login-container">
-    <img class="logopic" src="assets/images/logo2.jpg">
-    <div class="logo">اهلا بكم</div>
+    <img class="logopic" src="assets/images/logo2.png">
     <div class="desc"></div>
+</div>
+<div class="login-form">
+    <div class="form-group">
+        <label for="uname" class="label">اسم المستخدم</label>
+        <input type="text" name="uname" class="form-control" [(ngModel)]="username" [ngStyle]="{ 'border-color': error == true ? 'red' : 'none'}">
+    </div>
+    <div class="form-group">
+        <label for="password" class="label">كلمة المرور</label>
+        <input type="password" name="password" class="form-control" [(ngModel)]="password" [ngStyle]="{ 'border-color': error == true ? 'red' : 'none'}">
+    </div>
+    <div class="btn-container">
+        <div class="error">{{ errorMsg }}</div>
+        <button class="button" (click)="login()">دخول</button>
+    </div>
 </div>
