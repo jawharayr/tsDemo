@@ -10,10 +10,10 @@
             <div class="news-thumbnail">
                 <div class="movie" *ngFor="let movie of trendingNews">
                     <div class="cover">
-                        <img [src]="movie.cover" alt="">
+                        <img [src]="movie?.cover" alt="">
                     </div>
                     <div class="detail">
-                        <div class="name"> {{ movie.name}}</div>
+                        <div class="name"> {{ movie?.name}}</div>
                     </div>
                 </div>
             </div>
