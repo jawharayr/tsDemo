@@ -26,13 +26,6 @@ login(){
     this.errorMsg = "يرجى ادخال كلمة المرور"
   } else {
     this.errorMsg = ""
-    let res = this.auth.login(this.username, this.password);
-    if (res == 200){
-      this.router.navigate(['home'])
-    }
-    if (res == 403){
-      this.errorMsg = "خطأ بتسجيل الدخول"
-    }
   }
 }
 }
